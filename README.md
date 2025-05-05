@@ -1,9 +1,8 @@
-(im gonna move the downloads to github release just wait a bit)
 # Bloodthief TAS Mod Documentation
 ***
 # Installation
 0. make sure you're on the latest version of the mod loader
-1. [download](https://r2.e-z.host/ae0aa880-16c5-41d4-9393-42d53c6734a4/r88uzbh1.zip) the TAS mod
+1. [download](https://github.com/Luna5829/bloodthief-tas-mod/releases/download/v1.1.0/tas_mod.zip) the TAS mod
 2. move the folder that is inside of the zip file into the mods-unpacked folder
 3. open the game (preferably the bloodthief.console version, so that you can see any errors that might happen)
 4. after the game is open load up sandbox (to test stuff)
@@ -113,5 +112,5 @@ you can do any of these in functions, or repeat blocks, even with nesting, it **
 - if anything doesnt work or you get errors in the console please send the exact issue/error and ping me (@emma.5829)
 - inputs are disabled while a TAS is playing, if you want inputs to not be disabled you can edit "playback.gd" and change the 4th line variable equal to true
 ***
-[vscode .tas syntax highlighting extension](https://r2.e-z.host/ae0aa880-16c5-41d4-9393-42d53c6734a4/wv2lx67y.vsix)
+[vscode .tas syntax highlighting extension](https://github.com/Luna5829/bloodthief-tas-mod/releases/download/v1.1.0/bloodtas-1.1.0.vsix)
 alternatively you can use something with similar syntax (and no language server), like ahk v1 or csv (but it won't look as good)
