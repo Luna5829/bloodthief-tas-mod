@@ -1,5 +1,4 @@
 # Bloodthief TAS Mod Documentation
-***
 # Installation
 0. make sure you're on the latest version of the mod loader
 1. [download](https://github.com/Luna5829/bloodthief-tas-mod/releases/download/v1.1.0/tas_mod.zip) the TAS mod
@@ -106,6 +105,7 @@ you can do any of these in functions, or repeat blocks, even with nesting, it **
 ***
 # Extra Notes (this is also important pls read it as well)
 - to make the tas more deterministic put bloodthief on an SSD and launch the game using `bloodthief.exe --fixed-fps 90`
+- `, ` works as well as `,`, so you can do `1, J` as well as `1,J` and it'll essentially be the same thing
 - every single thing is case insensitive, that means `CaMeRaReL,1,0` is just as valid as `CameraRel,1,0` (but for everyone's sake, just don't)
 - any commas can be replaced with spaces (as long as you replace every single comma on the same line), so `CameraRel 1 0` works the same as `CameraRel,1,0`, but `CameraRel 1,0` will not work
 - the keys in keybinds.json don't have to be one letter, so you can do "jump": "jump" if you really want to, and then you'd have to do 1,Jump
