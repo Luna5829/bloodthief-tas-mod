@@ -1,7 +1,7 @@
 # Bloodthief TAS Mod Documentation
 # Installation
 0. make sure you're on the latest version of the mod loader
-1. [download](https://github.com/Luna5829/bloodthief-tas-mod/releases/download/v1.1.0/tas_mod.zip) the TAS mod
+1. [download](https://github.com/Luna5829/bloodthief-tas-mod/archive/refs/heads/main.zip) the TAS mod
 2. move the folder that is inside of the zip file into the mods-unpacked folder
 3. open the game (preferably the bloodthief.console version, so that you can see any errors that might happen)
 4. after the game is open load up sandbox (to test stuff)
