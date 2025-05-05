@@ -1,0 +1,90 @@
+# walks forwards with "perfect" (kinda) joystick inputs for zigzagging, gets to around 21 speed without blood
+
+# reset twice cuz it's more deterministic that way for some reason
+# also make a function just so u can see wat a function looks like
+func,reset
+    1,X
+    1
+    1,X
+    3
+endFunc
+
+reset()
+19,F
+1,Joystick,-15.05
+1,Joystick,19.9
+1,Joystick,-24.65
+1,Joystick,26.55
+1,Joystick,-29.7
+1,Joystick,30.6
+1,Joystick,-33
+1,Joystick,33.3
+1,Joystick,-36.45
+1,Joystick,35.15
+1,Joystick,-37
+1,Joystick,36.65
+1,Joystick,-38.3
+1,Joystick,37.8
+1,Joystick,-39.35
+1,Joystick,38.7
+1,Joystick,-40.15
+1,Joystick,39.4
+1,Joystick,-40.75
+1,Joystick,40
+1,Joystick,-41.3
+1,Joystick,40.45
+1,Joystick,-41.70
+1,Joystick,40.8
+1,Joystick,-42
+1,Joystick,41.1
+1,Joystick,-42.3
+1,Joystick,41.35
+1,Joystick,-42.5
+1,Joystick,41.55
+1,Joystick,-42.7
+1,Joystick,41.75
+1,Joystick,-42.85
+1,Joystick,41.85
+1,Joystick,-43
+1,Joystick,42
+1,Joystick,-43.1
+1,Joystick,42.1
+1,Joystick,-43.15
+1,Joystick,42.15
+1,Joystick,-43.25
+1,Joystick,42.2
+1,Joystick,-43.3
+1,Joystick,42.3
+1,Joystick,-43.35
+1,Joystick,42.3
+1,Joystick,-43.4
+1,Joystick,42.35
+1,Joystick,-43.45
+1,Joystick,42.4
+1,Joystick,-43.45
+1,Joystick,42.4
+1,Joystick,-43.5
+1,Joystick,42.45
+1,Joystick,-43.5
+1,Joystick,42.45
+1,Joystick,-43.5
+1,Joystick,42.45
+1,Joystick,-43.55
+1,Joystick,42.5
+1,Joystick,-43.55
+1,Joystick,42.5
+1,Joystick,-43.55
+1,Joystick,42.5
+1,Joystick,-43.55
+1,Joystick,42.5
+1,Joystick,-43.55
+1,Joystick,42.5
+1,Joystick,-43.55
+1,Joystick,42.5
+1,Joystick,-43.6
+1,Joystick,42.5
+
+Repeat,1000
+    1,Joystick,-43.6
+    1,Joystick,42.55
+EndRepeat
