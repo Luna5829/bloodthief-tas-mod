@@ -86,6 +86,10 @@ func init():
     graph_scene.set_script(graph_script)
     add_child(graph_scene)
 
+    var input_service_override = load(path_to_dir + "/input_service.gd")
+    input_service_override.take_over_path("res://scripts/services/input_service.gd")
+    InputService.set_script(input_service_override)
+
 
 func _input(event: InputEvent) -> void:
     if not camera_pause:
