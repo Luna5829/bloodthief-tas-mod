@@ -2,7 +2,7 @@
 # Installation
 0. make sure you're on the latest version of the mod loader
 1. [download](https://github.com/Luna5829/bloodthief-tas-mod/archive/refs/heads/main.zip) the TAS mod
-2. move the zip file into the mods folder
+2. either extract the zip file and move the folder inside into `mods-unpacked` or just put the zip file into `mods`
 3. open the game
 4. after the game is open load up a level
 5. open the bloodthief settings, then navigate to the settings of the mod
