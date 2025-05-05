@@ -97,7 +97,7 @@ log,player velocity: ,velocity
 - All syntax is case-insensitive. `CaMeRaRel,1,0` = `cameraRel,1,0`
 - keybinds in keybinds.json don't have to be just one letter
 - TAS disables all inputs unless you modify playback.gd (4th line -> `true`)
-- Report issues or bugs to *@emma.5829*
+- Report issues or bugs to **@emma.5829**
 ***
 # VSCode Syntax Highlighting
 [Extension download](https://github.com/Luna5829/bloodthief-tas-mod/releases/download/v1.1.0/bloodtas-1.1.0.vsix)
