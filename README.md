@@ -104,7 +104,8 @@ any values other than 90 and 60 won't work
 
 you can do any of these in functions, or repeat blocks, even with nesting, it **should** work, and if it doesn't ping me (@emma.5829)
 ***
-# Extra Notes
+# Extra Notes (this is also important pls read it as well)
+- to make the tas more deterministic put bloodthief on an SSD and launch the game using `bloodthief.exe --fixed-fps 90`
 - every single thing is case insensitive, that means `CaMeRaReL,1,0` is just as valid as `CameraRel,1,0` (but for everyone's sake, just don't)
 - any commas can be replaced with spaces (as long as you replace every single comma on the same line), so `CameraRel 1 0` works the same as `CameraRel,1,0`, but `CameraRel 1,0` will not work
 - the keys in keybinds.json don't have to be one letter, so you can do "jump": "jump" if you really want to, and then you'd have to do 1,Jump
