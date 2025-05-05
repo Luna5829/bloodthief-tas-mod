@@ -1,0 +1,11 @@
+{
+    "name": "tas_mod",
+    "name_pretty": "TAS mod",
+    "version_number": "1.1.0",
+    "namespace": "emma",
+    "authors": [
+        "emma"
+    ],
+    "description": "mod for TASing bloodthief",
+    "description_rich": "mod for TASing bloodthief"
+}

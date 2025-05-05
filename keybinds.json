@@ -1,0 +1,19 @@
+{
+    "f": "move_forward",
+    "b": "move_backward",
+    "l": "move_left",
+    "r": "move_right",
+    "j": [
+        "jump",
+        "wall_jump"
+    ],
+    "c": "crouch",
+    "s": "slide",
+    "d": "ground_pound",
+    "v": "ledge_climb",
+    "e": "attack",
+    "q": "shoot",
+    "a": "air_dash",
+    "p": "parry",
+    "x": "restart_level"
+}
