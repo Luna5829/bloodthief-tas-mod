@@ -2,9 +2,9 @@
 # Installation
 0. make sure you're on the latest version of the mod loader
 1. [download](https://github.com/Luna5829/bloodthief-tas-mod/archive/refs/heads/main.zip) the TAS mod
-2. move the folder that is inside of the zip file into the mods-unpacked folder
-3. open the game (preferably the bloodthief.console version, so that you can see any errors that might happen)
-4. after the game is open load up sandbox (to test stuff)
+2. move the zip file into the mods folder
+3. open the game
+4. after the game is open load up a level
 5. open the bloodthief settings, then navigate to the settings of the mod
 6. click the 4 buttons and set each individual thing, TAS file path is the inputs.tas, keybinds file path is the keybinds.json
 7. press [the keybind](#keybinds) to start the tas (the inputs file provided in the zip moves forwards at 20 speed using "precise" joystick inputs to zig-zag perfectly)
