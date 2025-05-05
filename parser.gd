@@ -30,10 +30,6 @@ func read(tas_file, keybinds_file):
 
 
 func validate_keybind(keybind):
-    if keybind in keybinds:
-        push_error("Keybind already defined: %s" % keybind)
-        return false
-
     if keybind == "":
         push_error("Keybind cannot be empty")
         return false
