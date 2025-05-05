@@ -7,7 +7,7 @@
 4. after the game is open load up a level
 5. open the bloodthief settings, then navigate to the settings of the mod
 6. click the 4 buttons and set each individual thing, TAS file path is the inputs.tas, keybinds file path is the keybinds.json
-7. press [the keybind](#keybinds) to start the tas (the inputs file provided in the zip moves forwards at 20 speed using "precise" joystick inputs to zig-zag perfectly)
+7. press [the keybind](#keybinds) to start the tas (the inputs file provided in the zip moves forwards at ~20 speed using "precise" joystick inputs to zigzag perfectly)
 ***
 # Keybinds
 - `[ (Left Bracket)`: advances a single frame (pauses if not already paused).
@@ -15,7 +15,6 @@
 - `\ (Backslash)`: starts the TAS
 - `; (Semicolon)`: stops the TAS
 - `' (Apostrophe)`: refreshes the inputs.tas file (which lets you make changes while it's paused without having to replay everything)
-- `= (Equals sign)`: toggles the "best speed/angle" thing because it's kinda laggy
 ***
 # Syntax
 ## Basic Inputs
