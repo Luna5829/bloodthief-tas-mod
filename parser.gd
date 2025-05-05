@@ -302,6 +302,8 @@ func format_line(line):
     regex.compile("\\s\\s+")
     line = regex.sub(line, "", true)
 
+    line = line.replace(", ", ",")
+
     return line
 
 
