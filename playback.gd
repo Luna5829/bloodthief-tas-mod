@@ -224,9 +224,8 @@ func update():
                     if "joystick" in new_input:
                         joystick_command = new_input
                         break
-                if joystick_command == null:
-                    Input.action_release(input)
-                else:
+                Input.action_release(input)
+                if joystick_command != null:
                     var angle_radians = deg_to_rad(joystick_command.split("(")[1].split(")")[0].split(",")[0].to_float() - 90)
                     var axis_x = cos(angle_radians)
                     var axis_y = sin(angle_radians)
