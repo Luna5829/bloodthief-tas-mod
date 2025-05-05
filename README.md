@@ -11,6 +11,8 @@
     - TAS file path: `inputs.tas`
     - Keybinds path: `keybinds.json`
 7. Press [the start keybind](#keybinds) to start the tas.
+
+[Crossbow trajectory predictor mod download](https://github.com/Luna5829/bloodthief-tas-mod/releases/download/v1.1.0/trajectory_predictor.zip)
 ***
 # Keybinds
 - `[ (Left Bracket)`: Step forward one frame
