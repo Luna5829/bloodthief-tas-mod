@@ -1,5 +1,5 @@
+(im gonna move the downloads to github release just wait a bit)
 # Bloodthief TAS Mod Documentation
-[TOC]
 ***
 # Installation
 0. make sure you're on the latest version of the mod loader
