@@ -224,8 +224,9 @@ func update():
                     if "joystick" in new_input:
                         joystick_command = new_input
                         break
-                Input.action_release(input)
-                if joystick_command != null:
+                if joystick_command == null:
+                    Input.action_release(input)
+                else:
                     var angle_radians = deg_to_rad(joystick_command.split("(")[1].split(")")[0].split(",")[0].to_float() - 90)
                     var axis_x = cos(angle_radians)
                     var axis_y = sin(angle_radians)
@@ -234,6 +235,8 @@ func update():
                     for key in joypad_keys:
                         if key != key_x and key != key_y:
                             Input.action_release(key)
+                    if input not in joypad_keys:
+                        Input.action_release(input)
 
         if joystick_input_processing == false:
             joystick_event(0, 0)
